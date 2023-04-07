@@ -1,0 +1,9 @@
+# Ignorar a pasta Library
+Library/
+
+# Ignorar a pasta Temp
+Temp/
+
+# Ignorar arquivos gerados automaticamente pelo Unity
+*.csproj
+*.sln
