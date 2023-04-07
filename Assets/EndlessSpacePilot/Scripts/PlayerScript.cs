@@ -5,8 +5,13 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour{
 
     public float speed = 1;
-
     public Vector2 screenLimit;
+    public GameObject projectile;
+    public Transform[] shootPositions;
+    public Vector2 shootDirection = new(1,0);
+    public float shootCD = .5f;
+    public float shootSpeed = 300;
+    float shootTimer = 0;
 
     // Start is called before the first frame update
     void Start(){
@@ -15,7 +20,22 @@ public class PlayerScript : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
+        shootTimer += Time.deltaTime;
         Moviment();
+        Shoot();
+    }
+
+    void Shoot(){
+        if (Input.GetAxisRaw("Jump") != 0 && shootTimer >= shootCD){
+            for(int i = 0; i < shootPositions.Length; i++){
+                print("Atirando com o : " + shootPositions.Length);
+                GameObject shoot = Instantiate(projectile);
+                shoot.transform.position = shootPositions[i].position;
+                shoot.transform.up = shootDirection.normalized;
+                shoot.GetComponent<Rigidbody2D>().AddForce(shootDirection.normalized * shootSpeed);
+                shootTimer = 0;
+            }
+        }
     }
 
     void Moviment(){

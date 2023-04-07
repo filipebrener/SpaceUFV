@@ -857,3 +857,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3389.384389 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Menu/gameLogo.png
+  artifactKey: Guid(57b4e36d2420c9148bcf57c728b89cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Menu/gameLogo.png using Guid(57b4e36d2420c9148bcf57c728b89cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90b01c1cb740dfbe10db6e14134ae5a') in 0.112996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Menu/retryButton.png
+  artifactKey: Guid(386e7e23bcc82c946908fa1f10bfbaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Menu/retryButton.png using Guid(386e7e23bcc82c946908fa1f10bfbaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f83becd938476946972da7ad2affd5a') in 0.021147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Menu/medal.png
+  artifactKey: Guid(385ee18f9e60301428112863f3b2c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Menu/medal.png using Guid(385ee18f9e60301428112863f3b2c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93c32cf54cb4e10bcdb7ed8923b12cb') in 0.018353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Menu/icon_precise.png
+  artifactKey: Guid(54e8f19164ce75d4ba6850b4ec2c7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Menu/icon_precise.png using Guid(54e8f19164ce75d4ba6850b4ec2c7ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea41d4af1fddb874620582637481cae') in 0.017281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Menu/menuButton.png
+  artifactKey: Guid(0c788a6119828964b9952499b184f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Menu/menuButton.png using Guid(0c788a6119828964b9952499b184f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10abeff31072fbe9fc17dfc0064d7ca8') in 0.015273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819233 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/decal_(2).png
+  artifactKey: Guid(a59d1fc51a88ec44cb778c880b9404f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/decal_(2).png using Guid(a59d1fc51a88ec44cb778c880b9404f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8496e24bf3d1f556bb104218437ee5b') in 0.026600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/visual_1.png
+  artifactKey: Guid(708daa6f6ccde0c4fb3a054c622138b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/visual_1.png using Guid(708daa6f6ccde0c4fb3a054c622138b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573a1dec9322f37f622b5841affa430e') in 0.020196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/decal_(3).png
+  artifactKey: Guid(a160df65b5127564ca567cdadb0635a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/decal_(3).png using Guid(a160df65b5127564ca567cdadb0635a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4a7661f70519846d26e54ea86c7dca') in 0.025949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/visual_3.png
+  artifactKey: Guid(7c34c6424033a8e49b9670410288fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/visual_3.png using Guid(7c34c6424033a8e49b9670410288fb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a0514de3ff924c8a926b5fc3b86ad') in 0.020357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/decal_(7).png
+  artifactKey: Guid(c1fe2fb2e14a46e428ea144806b45f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/decal_(7).png using Guid(c1fe2fb2e14a46e428ea144806b45f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e7c06207114f1a5f031cf8d5cffebf') in 0.036261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/decal_(4).png
+  artifactKey: Guid(dd0f47d48a91fb34c966448860ed730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/decal_(4).png using Guid(dd0f47d48a91fb34c966448860ed730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff73b77a37b91092f276aab1beab416') in 0.021025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LevelItems/LevelForeground.png
+  artifactKey: Guid(54fa4078bfeb3e340a4d7bff6651fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LevelItems/LevelForeground.png using Guid(54fa4078bfeb3e340a4d7bff6651fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9adfbfab67a12d0c9dacfe3fdec39c') in 0.063137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.013216 seconds.
+  path: Assets/EndlessSpacePilot/Textures/LaserTexture/lazerStand_1.png
+  artifactKey: Guid(cb2eb0762a95a4d479ee90ca55baf6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/LaserTexture/lazerStand_1.png using Guid(cb2eb0762a95a4d479ee90ca55baf6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06c4a5d869e2fc311cb7d3739f9314d') in 0.023892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.698387 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Doors/doorLeft_2.png
+  artifactKey: Guid(bb2b259245caa3d4fa7ee4f8f215467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Doors/doorLeft_2.png using Guid(bb2b259245caa3d4fa7ee4f8f215467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a954f66e8b130e42e4b59299d4b91b27') in 0.019718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Doors/doorRight_3.png
+  artifactKey: Guid(ea80e5f3753a62f4c8ca769343be9970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Doors/doorRight_3.png using Guid(ea80e5f3753a62f4c8ca769343be9970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f376855ca492a989a83edd38273d4f3') in 0.016548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Doors/doorstand04.png
+  artifactKey: Guid(6a5376c805fd90846aa8473846fd34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Doors/doorstand04.png using Guid(6a5376c805fd90846aa8473846fd34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b38154124134f729bd26d6d3c2fe73') in 0.013764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EndlessSpacePilot/Textures/Doors/doorRight_1.png
+  artifactKey: Guid(12d5073f9c3696640aad8bb97724bd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessSpacePilot/Textures/Doors/doorRight_1.png using Guid(12d5073f9c3696640aad8bb97724bd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c2ebd95ee65c60cf090e974698f2d3') in 0.015501 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
