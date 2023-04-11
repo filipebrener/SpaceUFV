@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour{
 
@@ -14,17 +14,34 @@ public class PlayerScript : MonoBehaviour{
     float shootTimer = 0;
     public int maxLife = 10;
     public int life;
+    public Image lifeBar;
+    public TextMeshProUGUI lifeInfo;
+    public TextMeshProUGUI scoreInfo;
+    public int score = 0;
+    private float gameTime = 0;
+    public float boost = 1;
+    public GameObject explosion;
 
     // Start is called before the first frame update
     void Start(){
         life = maxLife;
+        UpdateUI();
     }
 
     // Update is called once per frame
     void Update(){
+        UpdateUI();
+        gameTime += Time.deltaTime;
         shootTimer += Time.deltaTime;
         Moviment();
         Shoot();
+    }
+
+    public void UpdateUI()
+    {
+        lifeBar.fillAmount = (float)life / maxLife;
+        lifeInfo.text = life + "/" + maxLife;
+        scoreInfo.text = "Score: " + ((int) gameTime + score);
     }
 
     public void TakeDamage(int damage = 1)
@@ -35,10 +52,12 @@ public class PlayerScript : MonoBehaviour{
         {
             Die();
         }
+        UpdateUI();
     }
 
     void Die()
     {
+        if (explosion != null) Instantiate(explosion, transform.position, Quaternion.identity);
         life = maxLife;
         transform.position = new Vector3(screenLimit.x / 2, screenLimit.y / 2);
     }

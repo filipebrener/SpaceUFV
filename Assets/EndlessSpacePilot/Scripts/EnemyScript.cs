@@ -19,6 +19,7 @@ public class EnemyScript : MonoBehaviour
 
     public int maxLife = 10;
     public int life;
+    public GameObject explosion;
 
     // Start is called before the first frame update
     void Start(){
@@ -44,6 +45,7 @@ public class EnemyScript : MonoBehaviour
 
     void Die()
     {
+        if (explosion != null) Instantiate(explosion, transform.position, Quaternion.identity);
         life = maxLife;
         transform.position = new Vector3(screenLimit.x / 2, screenLimit.y);
     }
