@@ -37,11 +37,17 @@ public class PlayerScript : MonoBehaviour{
         Shoot();
     }
 
+    public void AddScore(int value = 20)
+    {
+        this.score += value;
+    }
+
     public void UpdateUI()
     {
         lifeBar.fillAmount = (float)life / maxLife;
         lifeInfo.text = life + "/" + maxLife;
         scoreInfo.text = "Score: " + ((int) gameTime + score);
+        if(score != 0) print(score);
     }
 
     public void TakeDamage(int damage = 1)
