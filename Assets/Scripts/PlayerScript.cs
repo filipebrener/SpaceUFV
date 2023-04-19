@@ -21,6 +21,8 @@ public class PlayerScript : MonoBehaviour{
     private float gameTime = 0;
     public float boost = 1;
     public GameObject explosion;
+    public GameObject dieEndGameMenu;
+    public GameObject winEndGameMenu;
 
     // Start is called before the first frame update
     void Start(){
@@ -66,6 +68,8 @@ public class PlayerScript : MonoBehaviour{
         if (explosion != null) Instantiate(explosion, transform.position, Quaternion.identity);
         life = maxLife;
         transform.position = new Vector3(0, 0);
+        dieEndGameMenu.SetActive(true);
+        Time.timeScale = 0;
     }
 
     void Shoot(){
